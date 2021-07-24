@@ -1,3 +1,5 @@
+# The vertex class creates vertex objects that hold an index, label, and address
+# This data is used to match packages to a specific vertex number
 class Vertex:
     def __init__(self, index, label, address):
         self.index = index

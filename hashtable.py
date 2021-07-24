@@ -51,5 +51,6 @@ class ChainingHashTable:
             if kv[0] == key:
                 bucket_list.remove([kv[0], kv[1]])
 
+    # This function returns the size of the ChainingHashTable
     def get_size(self):
         return len(self.table)
