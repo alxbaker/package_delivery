@@ -20,6 +20,12 @@ class Truck:
     def get_packages(self):
         return self.packages
 
+    def clear_distance(self):
+        self.distance = 0
+
+    def clear_packages(self):
+        self.packages.clear()
+
     def add_distance(self, distance):
         self.distance += float(distance)
 

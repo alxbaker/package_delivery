@@ -38,8 +38,14 @@ class Package:
     def get_time_delivery(self):
         return self.timeDelivered
 
+    def get_package_id(self):
+        return self.packageID
+
     def set_status(self, status):
         self.status = status
 
     def get_vertex(self):
         return self.vertex
+
+    def get_status(self):
+        return self.status
